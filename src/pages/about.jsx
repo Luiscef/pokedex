@@ -1,5 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router';
+
+import { PokemonList } from '../components/Pokemon/PokemonList';
+
+import { usePokemonList } from '../services/pockemonapi';
+import { Paging } from '../components/Paging/Paging';
 
 export const About = () => {
     return (
